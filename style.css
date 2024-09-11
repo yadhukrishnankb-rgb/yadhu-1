@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+body{
+    margin: 0;
+    width:100%;
+    
+}
+.container{
+    width: 83%;
+    margin: auto;
+}
+header{
+    position: relative;
+    height:420px ;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height:420px ;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+    transform:scale(1.1) ;
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+.nav{
+ 
+   font-weight: 550; 
+   height: 50px;
+    
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logcontainer{
+    display: flex;
+    align-items: center;
+    
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display:flex ;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size:20px ;
+     font-weight:100 ;
+}
+.nav ul li a{
+    color:inherit;
+    text-decoration: none;
+
+}
+
+
+.zomato-logo{
+    width: 300px;
+    
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:420px ;
+    flex-direction: column;
+
+  
+
+}
+.header-body-content{
+    position: relative;
+   top:-50px ; 
+}
+.header-body-section-Discover{
+    font-size: 40px;
+    margin: 25px 0;
+
+
+}
+.search-container{
+    background-color: white;
+    width: 790px;
+    height: 54px;
+    max-width 760px; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+  
+    color: black;
+    
+padding: 7px;
+    align-items: center;
+}
+.location-map {
+    color: rgb(230, 138, 138);
+    font: 22px; 
+    padding-top: 0px;
+    
+}
+.caret-up{
+    color:black;
+    
+}
+.detectionlocation input{
+border: none;
+font-size: 160;
+width: 210px;
+}
+.search-items{
+    color: rgb(173, 170, 170);
+    font-size: 18px;
+    padding-left: 13px;
+}
+.line{
+    padding: 7px; 
+  
+    
+}
+.search-items input{
+   max-width: 100%;
+   width: 400px;
+   font-size: 15px;
+   border: none;
+   padding: 5 10;
+   outline: none;
+   
+
+}
+.section-1{
+    margin-top: 40px;
+margin-bottom: 40px;
+}
+.container-feature{
+    width: 100%;
+    display: flex;
+    margin-left: 0%;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.feature{
+    width: 50%;
+    overflow: hidden;
+    height: auto; 
+    border-radius: 10px;
+    border: 1px
+    solid rgb(243, 238, 238);
+
+
+}
+.feature-image{
+    
+    width: 100%;
+    overflow: hidden;
+
+    height: 170px;
+    
+    
+}
+.feature-image img{
+   width: 100%; 
+   background-position:100px ;
+   
+ 
+}
+.feature:hover{
+    transform:scale(1.07 ) ;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+.section-2-left h1{
+font-size: 40px;
+margin-bottom: 0;
+margin-left: 18px;
+
+}
+.section-2-left p{
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 18px;
+    letter-spacing: 1px;
+    font-weight: 200px;
+}
+.section-2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2-right{
+align-self: flex-end;
+color: rgb(249, 110, 110);
+}
+.section-2-body{
+   display: flex;
+   padding: 40px;
+   
+}
+
+.section-2-div1{
+    margin: left 10px; 
+    
+}
+.section-2-div2{
+    margin-left: 10px;
+}
+.section-2-div3{
+    margin-left: 10px;
+}
+.section-2-div4{
+    
+    margin-left: 10px;
+}
+.hi img{
+    border-radius: 10px;
+}
+.section-3{
+    display: flex;
+    margin:90px 0 ;
+    padding: 40px 0;
+    justify-content: center;
+    background-color:rgb(255, 248, 248) ;
+    
+}
+.flex{
+    display:flex ;
+}
+
+.contact{
+    width: 760px;
+    overflow: hidden;
+}
+.contact img{
+    width: 250px;
+    height: 450px;
+    padding: right 40px; ;
+}
+.address{
+    width: 470px;
+    margin: top 20px; 
+    padding-left: 10px;
+}
+.address p{
+    padding-bottom: 10px;
+    font: size 0.95rem; ;
+    color: rgb(92,91,91);
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34,34,34);
+}
+.radio{
+    display: flex;
+    justify-content:space-between ;
+    margin: right 230px; 
+    padding: bottom 20px; ;
+}
+.radio label{
+    font-size: 1.1rem;
+    color: rgb(49,49,49);
+}
+.radio [type="radio"]{
+accent-color: rgb(255,92,92) ;
+}
+.email{
+    position: relative;
+}
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184,183,183);
+    outline: rgb(255,92,92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+.place{
+    position: absolute;
+    font: size 1.3rem; 
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+.email button{
+    width: 150px;
+    border: radius 6px; 
+    border:1px solid rgb(253,104,104);
+    background-color:rgb(253,104,104) ;
+    font: size 1.1rem; 
+    margin-left: 6px;
+    color: white;
+}
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+.app img{
+    width: 137px;
+    height: 40px;
+}
+.sec-4{
+    margin-bottom: 110px;
+    margin:40px 110px;
+}
+.sec-4 h1{
+   font-size: 1.9rem;
+   font-weight: lighter;
+   color: rgb(31,31,31); 
+}
+.sec-4 h4{
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    color: rgb(31,31,31);
+
+}
+.sec-4 a{
+   text-decoration: none;
+   color: gray;
+   font-size: 0.95rem;
+}
+.sec-4 i{
+    font-size: 0.3rem;
+    padding: 6px 5px;
+    color: gray;
+}
+.first img{
+    width: 128px; 
+    height: 32px;
+
+}
+.sec-5{
+    padding: 40px 120px;
+    background-color: rgb(244,244,253);
+}
+.first{
+    display: flex;
+
+}
+.first-1 span{
+    padding : 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 600px;
+    font-weight: 400;
+    display: flex;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.second div{
+    width: 200px;
+}
+.second h4{
+    font-weight: lighter;
+    color: rgb(22,22,22);
+    white-space: nowrap;
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0,9rem;
+}
+.second img{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+}
+.box-4 i{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.third{
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.9rem;
+}
